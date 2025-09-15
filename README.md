@@ -1,6 +1,8 @@
 # fhir-ai-examples
 This repository contains examples for Brad Genereaux's talks on FHIR AI. 
 
+DISCLAIMER: AI models generate responses and outputs based on complex algorithms and machine learning techniques, and those responses or outputs may be inaccurate, harmful, biased or indecent. You assume the risk of any harm caused by any response or output of the model. Do not upload any confidential information or personal data. 
+
 # Example Set 1
 ## Step 1: Set the scene
 Hi ChatGPT, my name is Jimmy - I’m going to give you a series of FHIR messages, and ask you questions as we go through. The first one I’ll share is just about me.
@@ -261,6 +263,7 @@ I’ve been feeling really tired lately and I don’t know why. My knee has been
 What are some things that might cause such a set of results?
 
 ## Step 4: Lab result on one of the possible reasons (bone-marrow issue)
+Thanks ChatGPT! My doctor ordered me a laboratory test, let me paste the results.
 ```
 {
   "resourceType": "Bundle",
@@ -382,7 +385,10 @@ What are some things that might cause such a set of results?
 }
 ```
 
-## Step 5: Positive finding for SLE
+## Step 5: Ideate on possible causes
+What are some things that might cause such a set of results?
+
+## Step 6: Positive finding for SLE
 ```
 {
   "resourceType": "Bundle",
@@ -562,4 +568,8 @@ What are some things that might cause such a set of results?
   ]
 }
 ```
+
+## Step 7: What's the cause and next steps?
+What's the most likely disease I have?
+
 
